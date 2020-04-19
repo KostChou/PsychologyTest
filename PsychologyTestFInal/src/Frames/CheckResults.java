@@ -162,6 +162,7 @@ public class CheckResults extends javax.swing.JFrame {
             
             statement.close();
             dbConnection.close();
+            TextArea.setCaretPosition(0);
         }catch(SQLException ex) {
             System.out.println("\n -- SQL Exception --- \n");
             while(ex != null) {
