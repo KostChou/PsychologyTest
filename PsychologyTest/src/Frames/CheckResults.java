@@ -45,7 +45,7 @@ public class CheckResults extends javax.swing.JFrame {
     }
     
     private void init() {
-        setTitle("Μαθητές που αποτύχαν στο ψυχολογικό test");
+        setTitle("Μαθητές που απέτύχαν στο ψυχολογικό test");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
         setResizable(false);

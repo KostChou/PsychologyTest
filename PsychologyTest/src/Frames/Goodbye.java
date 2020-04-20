@@ -24,7 +24,7 @@ public class Goodbye extends javax.swing.JFrame {
         init();
     }
     private void init() {
-        setTitle("Κλείσιμο προγράμματος");
+        setTitle("GoodBye!");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE );
         setLocationRelativeTo(null);
         setResizable(false);

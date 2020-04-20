@@ -27,7 +27,7 @@ public class HomeMenu extends javax.swing.JFrame {
     }
     
     private void init() {
-        setTitle("Log In Window");
+        setTitle("Home Menu");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
         setResizable(false);

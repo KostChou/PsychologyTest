@@ -16,7 +16,7 @@ import javax.swing.JFrame;
 public class Erwthseis extends javax.swing.JFrame {
 
     /**
-     * Creates new form Erwthseis
+     * 
      */
     public Erwthseis() {
         initComponents();
@@ -24,7 +24,7 @@ public class Erwthseis extends javax.swing.JFrame {
     }
 
     private void init() {
-        setTitle("Log In Window");
+        setTitle("Ερωτήσεις(FAQ)");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
         setResizable(false);
