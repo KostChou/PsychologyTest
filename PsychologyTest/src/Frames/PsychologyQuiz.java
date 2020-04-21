@@ -75,7 +75,7 @@ public class PsychologyQuiz extends javax.swing.JFrame {
 
     private void init() {
         setTitle("Quiz Window");
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setLocationRelativeTo(null);
         setResizable(false);
     }
