@@ -150,11 +150,11 @@ public class CheckResults extends javax.swing.JFrame {
                 long thlefwnoPatera = rs4.getLong("ThlefwnoGonea");
                 int psychologyTestScore = rs4.getInt("TestScore");
                 System.out.println("Όνομα μαθητή: " + onMathiti +  "\n" + "Όνομα Πατέρα: " 
-                        + onPatera +  "\n" + "Επόνυμο Πατέρα: " +  eponPatera + 
+                        + onPatera +  "\n" + "Επώνυμο Πατέρα: " +  eponPatera + 
                         "\n" + "Τηλέφωνο πατέρα: " + thlefwnoPatera + "\n" + "Σκορ στο ψυχολογικό test: " + psychologyTestScore + " / 100" +  "\n \n ");
                
                 TextArea.append("Όνομα μαθητή: " + onMathiti + " \n" + "Όνομα πατέρα: " + 
-                        onPatera + " \n" + "Επόνυμο Πατέρα: " + eponPatera + "\n" + 
+                        onPatera + " \n" + "Επώνυμο Πατέρα: " + eponPatera + "\n" + 
                         "Τηλέφωνο πατέρα: " + thlefwnoPatera + "\n" +
                         "Score του μαθητή στο ψυχολογικό test: " + psychologyTestScore + " / 100" +" \n \n");
                 
