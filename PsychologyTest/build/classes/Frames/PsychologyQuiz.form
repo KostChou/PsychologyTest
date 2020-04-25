@@ -46,7 +46,7 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
-              <Component id="jPanel1" min="-2" pref="1289" max="-2" attributes="0"/>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
           </Group>
       </Group>
@@ -78,161 +78,145 @@
                           <EmptySpace min="-2" pref="75" max="-2" attributes="0"/>
                           <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <Group type="103" groupAlignment="1" attributes="0">
-                              <Group type="102" attributes="0">
-                                  <EmptySpace min="24" pref="24" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Group type="102" attributes="0">
-                                          <Group type="103" groupAlignment="0" attributes="0">
-                                              <Group type="102" attributes="0">
-                                                  <Group type="103" groupAlignment="1" attributes="0">
-                                                      <Group type="102" alignment="0" attributes="0">
-                                                          <Group type="103" groupAlignment="0" attributes="0">
-                                                              <Component id="Q33" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                              <Component id="Q31" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                          </Group>
-                                                          <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
-                                                          <Group type="103" groupAlignment="0" attributes="0">
-                                                              <Group type="102" alignment="0" attributes="0">
-                                                                  <Component id="Q32" min="-2" max="-2" attributes="0"/>
-                                                                  <EmptySpace min="-2" pref="113" max="-2" attributes="0"/>
-                                                                  <Group type="103" groupAlignment="0" attributes="0">
-                                                                      <Component id="Q61" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                                      <Component id="Q63" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                                  </Group>
-                                                              </Group>
-                                                              <Component id="Q34" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                          </Group>
-                                                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
-                                                          <Group type="103" groupAlignment="1" attributes="0">
-                                                              <Component id="Q62" min="-2" max="-2" attributes="0"/>
-                                                              <Component id="Q64" min="-2" pref="149" max="-2" attributes="0"/>
-                                                          </Group>
+                      <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="24" pref="24" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <Group type="103" groupAlignment="1" attributes="0">
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Group type="103" groupAlignment="0" attributes="0">
+                                                          <Component id="Q33" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                          <Component id="Q31" alignment="0" min="-2" max="-2" attributes="0"/>
                                                       </Group>
-                                                      <Group type="102" alignment="0" attributes="0">
-                                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                                              <Component id="Q23" max="32767" attributes="0"/>
-                                                              <Component id="Q21" max="32767" attributes="0"/>
-                                                          </Group>
-                                                          <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
-                                                          <Group type="103" groupAlignment="0" attributes="0">
-                                                              <Group type="102" attributes="0">
-                                                                  <Component id="Q24" min="-2" max="-2" attributes="0"/>
-                                                                  <EmptySpace min="-2" pref="103" max="-2" attributes="0"/>
-                                                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                                                      <Component id="Q53" max="32767" attributes="0"/>
-                                                                      <Component id="Q51" max="32767" attributes="0"/>
-                                                                  </Group>
+                                                      <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                                                      <Group type="103" groupAlignment="0" attributes="0">
+                                                          <Group type="102" alignment="0" attributes="0">
+                                                              <Component id="Q32" min="-2" max="-2" attributes="0"/>
+                                                              <EmptySpace min="-2" pref="113" max="-2" attributes="0"/>
+                                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                                  <Component id="Q61" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                                  <Component id="Q63" alignment="0" min="-2" max="-2" attributes="0"/>
                                                               </Group>
-                                                              <Component id="Q22" min="-2" max="-2" attributes="0"/>
                                                           </Group>
-                                                          <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
-                                                          <Group type="103" groupAlignment="1" attributes="0">
-                                                              <Component id="Q54" min="-2" max="-2" attributes="0"/>
-                                                              <Component id="Q52" min="-2" pref="113" max="-2" attributes="0"/>
-                                                          </Group>
+                                                          <Component id="Q34" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      </Group>
+                                                      <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                                                      <Group type="103" groupAlignment="1" attributes="0">
+                                                          <Component id="Q62" min="-2" max="-2" attributes="0"/>
+                                                          <Component id="Q64" min="-2" pref="149" max="-2" attributes="0"/>
                                                       </Group>
                                                   </Group>
-                                                  <EmptySpace min="-2" pref="68" max="-2" attributes="0"/>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                          <Component id="Q23" max="32767" attributes="0"/>
+                                                          <Component id="Q21" max="32767" attributes="0"/>
+                                                      </Group>
+                                                      <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                                                      <Group type="103" groupAlignment="0" attributes="0">
+                                                          <Group type="102" attributes="0">
+                                                              <Component id="Q24" min="-2" max="-2" attributes="0"/>
+                                                              <EmptySpace min="-2" pref="103" max="-2" attributes="0"/>
+                                                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                                  <Component id="Q53" max="32767" attributes="0"/>
+                                                                  <Component id="Q51" max="32767" attributes="0"/>
+                                                              </Group>
+                                                          </Group>
+                                                          <Component id="Q22" min="-2" max="-2" attributes="0"/>
+                                                      </Group>
+                                                      <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                                                      <Group type="103" groupAlignment="1" attributes="0">
+                                                          <Component id="Q54" min="-2" max="-2" attributes="0"/>
+                                                          <Component id="Q52" min="-2" pref="113" max="-2" attributes="0"/>
+                                                      </Group>
+                                                  </Group>
                                               </Group>
-                                              <Group type="102" alignment="1" attributes="0">
-                                                  <Component id="calc_button" min="-2" pref="209" max="-2" attributes="0"/>
-                                                  <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
-                                              </Group>
+                                              <EmptySpace min="-2" pref="68" max="-2" attributes="0"/>
                                           </Group>
-                                          <Group type="103" groupAlignment="0" attributes="0">
-                                              <Group type="102" attributes="0">
-                                                  <Group type="103" groupAlignment="0" attributes="0">
-                                                      <Component id="jLabel10" alignment="0" min="-2" pref="213" max="-2" attributes="0"/>
-                                                      <Component id="jLabel12" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                      <Component id="jLabel11" alignment="0" min="-2" pref="229" max="-2" attributes="0"/>
-                                                  </Group>
-                                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                                              </Group>
-                                              <Group type="102" alignment="1" attributes="0">
-                                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                                                  <Component id="jLabel15" min="-2" max="-2" attributes="0"/>
-                                              </Group>
-                                              <Group type="102" alignment="1" attributes="0">
-                                                  <Group type="103" groupAlignment="1" attributes="0">
-                                                      <Group type="102" attributes="0">
-                                                          <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
-                                                          <Group type="103" groupAlignment="0" attributes="0">
-                                                              <Component id="Q93" min="-2" max="-2" attributes="0"/>
-                                                              <Component id="Q91" min="-2" max="-2" attributes="0"/>
-                                                          </Group>
-                                                          <EmptySpace max="32767" attributes="0"/>
-                                                          <Group type="103" groupAlignment="0" attributes="0">
-                                                              <Group type="102" alignment="1" attributes="0">
-                                                                  <Component id="Q94" min="-2" max="-2" attributes="0"/>
-                                                                  <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
-                                                              </Group>
-                                                              <Component id="Q92" alignment="1" min="-2" max="-2" attributes="0"/>
-                                                          </Group>
-                                                      </Group>
-                                                      <Group type="102" attributes="0">
-                                                          <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
-                                                          <Group type="103" groupAlignment="0" attributes="0">
-                                                              <Group type="102" attributes="0">
-                                                                  <Component id="Q83" min="-2" max="-2" attributes="0"/>
-                                                                  <EmptySpace max="32767" attributes="0"/>
-                                                                  <Component id="Q84" min="-2" pref="147" max="-2" attributes="0"/>
-                                                              </Group>
-                                                              <Group type="102" attributes="0">
-                                                                  <Component id="Q81" min="-2" max="-2" attributes="0"/>
-                                                                  <EmptySpace max="32767" attributes="0"/>
-                                                                  <Component id="Q82" min="-2" max="-2" attributes="0"/>
-                                                              </Group>
-                                                          </Group>
-                                                      </Group>
-                                                  </Group>
-                                                  <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
-                                              </Group>
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Component id="calc_button" min="-2" pref="209" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
-                                      <Group type="102" alignment="1" attributes="0">
-                                          <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="Q11" min="-2" max="-2" attributes="0"/>
-                                              <Component id="Q13" min="-2" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                  <Component id="Q91" max="32767" attributes="0"/>
+                                                  <Component id="Q93" max="32767" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace max="32767" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="Q92" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="Q94" min="-2" pref="107" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
                                           </Group>
-                                          <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="Q12" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="Q14" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Group type="102" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="jLabel10" alignment="0" min="-2" pref="213" max="-2" attributes="0"/>
+                                                  <Component id="jLabel12" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jLabel11" alignment="0" min="-2" pref="229" max="-2" attributes="0"/>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="Q81" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                                                      <Component id="Q82" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                                           </Group>
-                                          <EmptySpace min="-2" pref="89" max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                              <Component id="Q43" max="32767" attributes="0"/>
-                                              <Component id="Q41" max="32767" attributes="0"/>
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                              <Component id="jLabel15" min="-2" max="-2" attributes="0"/>
                                           </Group>
-                                          <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                              <Component id="Q42" max="32767" attributes="0"/>
-                                              <Component id="Q44" max="32767" attributes="0"/>
-                                          </Group>
-                                          <EmptySpace max="32767" attributes="0"/>
-                                          <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="Q71" min="-2" max="-2" attributes="0"/>
-                                              <Component id="Q73" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                          <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="Q74" min="-2" max="-2" attributes="0"/>
-                                              <Component id="Q72" min="-2" max="-2" attributes="0"/>
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Component id="Q83" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="32767" attributes="0"/>
+                                              <Component id="Q84" min="-2" pref="147" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
                                   </Group>
-                              </Group>
-                              <Group type="102" attributes="0">
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace max="32767" attributes="0"/>
-                                  <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="310" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="Q11" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Q13" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="Q12" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Q14" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="89" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="Q43" max="32767" attributes="0"/>
+                                          <Component id="Q41" max="32767" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="Q42" max="32767" attributes="0"/>
+                                          <Component id="Q44" max="32767" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="Q71" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Q73" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="Q74" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Q72" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
                               </Group>
                           </Group>
-                          <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="310" max="-2" attributes="0"/>
+                          </Group>
                       </Group>
                   </Group>
                   <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
@@ -325,13 +309,13 @@
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="Q81" min="-2" pref="37" max="-2" attributes="0"/>
-                              <Component id="Q82" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="Q82" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="Q81" alignment="3" min="-2" pref="37" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                   </Group>
-                  <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
                       <Group type="102" attributes="0">
                           <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
@@ -348,14 +332,14 @@
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Component id="Q84" min="-2" pref="37" max="-2" attributes="0"/>
+                          <Component id="Q84" pref="37" max="32767" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
-                          <Component id="Q83" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="Q83" max="32767" attributes="0"/>
                       </Group>
                   </Group>
-                  <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="63" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -372,8 +356,8 @@
                   </Group>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="Q93" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="Q94" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Q93" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                      <Component id="Q94" alignment="3" min="-2" pref="42" max="-2" attributes="0"/>
                       <Component id="Q63" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="Q64" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="Q33" alignment="3" min="-2" max="-2" attributes="0"/>
