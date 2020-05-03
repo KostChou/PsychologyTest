@@ -121,7 +121,7 @@ public class Erwthseis extends javax.swing.JFrame {
         jLabel13.setText("Πότε πρέπει να επισκεφτώ κάποιον ψυχολόγο;");
 
         jLabel14.setFont(new java.awt.Font("Tahoma", 1, 13)); // NOI18N
-        jLabel14.setText("Η επίσκεψη σε ψυχολόγο συνιστάται όταν το αποτέλεσμα του ερωτηματολογίου είναι μικρότερο του 20 (είκοσι). ");
+        jLabel14.setText("Η επίσκεψη σε ψυχολόγο συνιστάται όταν το αποτέλεσμα του ερωτηματολογίου είναι μικρότερο του 40 (σαράντα). ");
 
         jLabel15.setFont(new java.awt.Font("Tahoma", 1, 13)); // NOI18N
         jLabel15.setForeground(new java.awt.Color(204, 51, 0));

@@ -77,7 +77,7 @@ public class CheckResults extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(255, 255, 153));
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        jLabel1.setText("Μαθητές που συγκέντρωσαν score μικρότερο του 20 :");
+        jLabel1.setText("Μαθητές που συγκέντρωσαν score μικρότερο του 40 :");
 
         TextArea.setEditable(false);
         TextArea.setBackground(new java.awt.Color(255, 255, 153));
@@ -137,7 +137,7 @@ public class CheckResults extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void CheckResultsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CheckResultsActionPerformed
-        String selectTetarthKathgoria = "SELECT * FROM B2 WHERE TestScore BETWEEN 0 AND 19";
+        String selectTetarthKathgoria = "SELECT * FROM B2 WHERE TestScore BETWEEN 0 AND 39";
         
         try{
             rs4 = statement.executeQuery(selectTetarthKathgoria);
