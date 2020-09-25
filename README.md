@@ -20,6 +20,7 @@
 Credentials ενός τυχαίου απλού μαθητή:
 -StudentID: 100000
 -Password: 12345678
+
 Credentials του διευθυντή του σχολείου: 
 -StudentID: 999999
 -Password: 99996666
