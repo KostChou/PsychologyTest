@@ -1,3 +1,12 @@
+Λογισμικά και εργαλεία που χρησιμοποιήθηκαν για την δημιουργiα του Project:
+ 
+1) PostgreSQL  (pgAdmin 4)
+2) NetBeans IDE (Integrated Development Environment)
+3) JDBC API (Java Database Connectivity)
+4) Open VPN
+5) Lanch4J
+6) Resource Hacker
+
 Ψυχολογικό test για τους μαθητές της δευτεροβάθμιας εκπαίδευσης.
 
 *Αναλόγως με τα credentials που θα δώσει ο χρήστης θα συνδεθεί είτε με το ρόλο του μαθητή που απλώς θα συμπληρώσει το quiz, είτε με τον ρόλο του διευθυντή, που θα μπορεί να ελέγξει ποίοι μαθητές απέτυχαν στο ψυχολογικό τεστ και να δει τα στοιχεία τους. 
@@ -14,13 +23,3 @@ Credentials ενός τυχαίου απλού μαθητή :
 Credentials του διευθυντή του σχολείου: 
 -StudentID: 999999
 -Password: 99996666
-
-
-Λογισμικά και εργαλεία που χρησιμοποιήθηκαν για την δημιουργiα του Project:
- 
-1) PostgreSQL  (pgAdmin 4)
-2) NetBeans IDE (Integrated Development Environment)
-3) JDBC API (Java Database Connectivity)
-4) Open VPN
-5) Lanch4J
-6) Resource Hacker
