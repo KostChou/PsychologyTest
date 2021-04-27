@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+
+	<title>My hobbies and favorite music!</title>
+	<style type="text/css">
+		#links a{
+			background-color: #c0eb34;
+			font-size: 140%;
+			margin: 5px;
+		}
+		#hobbies{
+			font-size: 24px;
+			background-color: #00FFC4;
+		}
+		#music{
+			font-size: 24px;
+			background-color: #A2FF00;
+		}
+	</style>
+
+	<script type="text/javascript">
+		function colorDoc(){
+			document.bgColor="FF7F50";
+		}
+
+
+		var fores = 0;
+		function choose(event){
+			var target = event.target;
+			fores++;
+			if(fores>3){
+				document.getElementById("lista1").onclick = "false";
+				alert("You have already chose 3 genres!");
+			}
+			
+			else if(target.tagName=="LI"){
+				target.style.background = "green" ; 
+				target.style.color = "orange";
+			}
+	}
+
+		function addOptionToSelectList(){
+			var selectionListItem = document.getElementById("mySelect");
+			var textBoxValue = document.getElementById("textBox").value;
+			for(var i = 0; i < selectionListItem.options.length; i++){
+				if(textBoxValue == selectionListItem.options[i].value){
+					return;
+				}
+			}
+			selectionListItem.innerHTML += "<option>" +  textBoxValue  + " </option> ";
+		}
+
+		function deleteSelectedOption(){
+			var selectionListItem = document.getElementById("mySelect");
+			selectionListItem.remove(selectionListItem.selectedIndex);	
+		}
+
+		function clearSelectionList(){
+			document.getElementById("mySelect").innerHTML="";
+			document.getElementById("textBox").value="";	
+		}	
+
+
+	</script>
+
+	</head>
+
+	<body onload="colorDoc()">
+
+
+		<div id="links" align="center">
+			<a href="AboutMe.html">About me</a>
+			<a href="MyEducation.html">My education</a> 
+			<a href="MyHobbies.html">My hobbies / favorite music</a>
+			<a href="FunArea.html">Fun Area</a> 
+			<a href="ContactMe.html">Contact me</a>
+		</div>
+
+		<h1 style="font-family: Times New Roman;color: aqua;background-color: #A0A0A0;text-align: center">My hobbies and my favorite music</h1>
+		<div id="music" style="position: absolute; left:15%">
+		<h3>Here are some of my favorite songs!</h3>
+		<ul>              
+		    <li><a href="https://www.youtube.com/watch?v=BfOdWSiyWoc">Red Hot Chili Peppers - Cant stop</a></li>
+		    <li><a href="https://www.youtube.com/watch?v=Mr_uHJPUlO8">Red Hot Chili Peppers - Give It Away</a></li>
+		    <li><a href="https://www.youtube.com/watch?v=4JkIs37a2JE">Jamiroquai - Virtual Insanity</a></li>
+		    <li><a href="https://www.youtube.com/watch?v=OCD99jMMuh0">Thievery Corporation - Amerimacka</a></li>
+		    <li><a href="https://www.youtube.com/watch?v=MWd5379FMGU">Incognito - Don't You Worry 'Bout A Thing</a></li>
+		    <li><a href="https://www.youtube.com/watch?v=0wTxqHbJOzg">Queens Of The Stone Age - Make It Wit Chu</a></li>
+		    <li><a href="https://www.youtube.com/watch?v=vdkmhquF60o">Bloc Party - Banquet</a></li>
+		    <li><a href="https://www.youtube.com/watch?v=p_MnuxHXh54">Incognito - Still A Friend Of Mine</a></li>
+		</ul>
+		</div>
+
+		<div id="hobbies" style="position: absolute; right: 20%">
+			<h3>Here are my favorite hobbies!</h3>
+			<ol>
+				<li>Jamming</li>
+				<li>Fishing</li>
+				<li>Video games</li>
+				<li>Tennis</li>
+				<li>Kart</li>
+				<li>Video Games</li>
+				<li>Watching movies</li>
+				<li>Cocooning</li>
+			</ol>
+		</div>
+		
+		<div style="position: relative; top: 40%">
+		<h1 style="font-family: Times New Roman;color: aqua;background-color: #A0A0A0;text-align: center; margin-top: 25%">Tell me which music genres do u like the most and add your hobbies!</h1>
+		</div>
+
+		<div style="position: absolute; top: 72%; left: 20%; border-style: solid;  border-color: yellow;" >
+			<h3>You can choose up to 3 music genres!!!</h3>
+			<ul id="lista1"; onclick="choose(event)">
+				<li>Rock</li>
+				<li>Metal</li>
+				<li>Jazz</li>
+				<li>Blues</li>
+				<li>Pop</li>
+				<li>Funk</li>
+				<li>Punk</li>
+				<li>RNB</li>
+				<li>Classic</li>
+			</ul>
+		</div>
+
+		<div style="position: absolute; top: 72%; right : 20%; border-style: solid; border-color: aqua">
+			<h3 style="text-align: center;">Type below your favorite hobbies!</h3>
+			<input type="text"; id="textBox"; style="width:130px; height:15px; margin-left: 15%"/> 	
+			<input type="button"; value="Click to add value in textbox to list:"; style="margin-left: 5%" onclick="addOptionToSelectList()"/> 
+			
+			<div style="position: relative;">
+				<select id="mySelect"; style="margin-left: 100px; margin-top: 3%; margin-left: 43%">
+				</select>
+		</div>
+		</br>
+
+	<pre><input type="button"; value="Delete Selected Option from this droplist!"; onclick="deleteSelectedOption()"/>   <input type="button"; value="Delete all options from the droplist!"; onclick="clearSelectionList()"/></pre>	
+		
+	</body>
+
+</html

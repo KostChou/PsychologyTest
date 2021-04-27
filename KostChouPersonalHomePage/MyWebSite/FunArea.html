@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+		<title>Let's have some fun!</title>
+		<style type="text/css">
+			div a{
+			background-color: #c0eb34;
+			font-size: 140%;
+			margin: 5px;
+		}
+		</style>
+
+		<script type="text/javascript">
+
+			
+			var swstesProspathies;
+			var lathosProspathies;
+			var sunolikesProspathies;
+			var seconds;
+			var countDownTimmer;	
+		
+			function startGame(){
+				clearInterval(countDownTimmer);
+
+				seconds = 15;
+
+				swstesProspathies=0;
+				lathosProspathies=0;
+				sunolikesProspathies=0;
+				
+
+
+				document.body.style.backgroundColor = "orange";
+				var table = document.getElementById("myTable");
+				var random9 = Math.floor(Math.random() * 9) + 1; 
+				var div1 = document.getElementById("div1");
+				var div2 = document.getElementById("div2");
+				div1.innerText = random9;
+
+				spanTime.innerΤext = "Χρόνος που απομένει: " + seconds;
+				
+				
+				for(var i =0; i<5; i++){
+					for(var j = 0; j<5; j++){
+						var random100 = Math.floor(Math.random() * 100) + 1;  
+
+						table.rows[i].cells[j].innerText = random100;
+						table.rows[i].cells[j].bgColor="white";
+						table.rows[i].cells[j].onclick = function(){
+							check(this);
+						}
+
+					}
+				}
+				countDownTimmer = setInterval("countDown()",1000);
+
+			}
+
+			function check(keli){
+				if(parseInt(keli.innerText) % div1.innerText == 0){
+					keli.bgColor = "green";
+					swstesProspathies++;
+					sunolikesProspathies++;
+				}
+				else{
+					keli.bgColor = "red";
+					lathosProspathies++;
+					sunolikesProspathies++;
+				}
+			}
+			
+			function countDown(){
+				seconds--;
+				document.getElementById("spanTime").innerText = "Χρόνος που απομένει: " + seconds ;
+				document.getElementById("spanTicking").innerHTML = "<pre>   The time is ticking..!  </pre> "+ " <img src='../Images/Klepsidra.gif'; style='height:200px; width:200px;'> "   ;
+
+				if(seconds==0){
+					clearInterval(countDownTimmer);
+					var score =  (swstesProspathies / sunolikesProspathies);
+					document.bgColor="white";
+					if(sunolikesProspathies==0){
+						alert("Score : " + 0);
+					}
+					else{
+						alert("Score : " + score + " / 1");
+					}
+					document.getElementById("spanTime").innerHTML = "" ;
+				}
+			}
+
+		</script>
+
+	</head>
+
+
+
+
+	<body style="background-color: #FF7F50;">
+
+		<div id="links" align="center">
+			<a href="AboutMe.html">About me</a>
+			<a href="MyEducation.html">My education</a> 
+			<a href="MyHobbies.html">My hobbies / favorite music</a>
+			<a href="FunArea.html">Fun Area</a> 
+			<a href="ContactMe.html">Contact me</a>
+		</div>
+
+		<h1 style="font-family: Times New Roman;color: red;background-color: aqua;text-align: center">Time to play!</h1>
+		<p style="font-size: 24px; font-weight: bold; " align="center";>Όταν πατήσετε το κουμπί Start Game θα εμφανιστεί ένας ακεραίος αριθμός(3-9) πάνω από τον πίνακα.</br>
+		Προσπαθήστε να επιλέξετε μόνο τα κελιά του πίνακα που είναι πολλαπλάσια αυτού του αριθμόυ, πριν λήξει ο χρόνος!</p>
+		<div id="div1" style="text-align: center; font-weight: bold; font-size: 40px;"></div>
+		</br>
+
+
+
+		<span style="position: absolute; margin-left: 20%; margin-top: 5%; font-weight: bold;"; id="spanTime";></span>
+		
+
+		<table style="background-color: white"; align="center"; id="myTable"; border="1"; width="300px"; height="200";>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+
+		</table>
+		<span style="position: absolute; margin-left: 70%; margin-top: -15%; font-weight: bold"; id="spanTicking";>
+			
+		</span>
+		
+		
+		</br>
+		
+		<div align="center">
+		<input type="button"; style="border-radius: 60%; background-color: yellow; cursor: pointer; font-size: 28px;" 	 value="Start Game!"; onclick="startGame()"; >
+		</div>
+	
+		</br>
+		<div id="div2"></div>
+
+	</body>
+
+</html>
