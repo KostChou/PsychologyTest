@@ -24,4 +24,3 @@ Credentials of a random student:
 Credentials of school's headquarter: 
 -StudentID: 999999
 -Password: 99996666
-
