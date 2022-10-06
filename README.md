@@ -9,7 +9,6 @@ Test stack that was used to implement this Project:
 5) Lanch4J
 6) Resource Hacker
 
-Description:
 *Depending on the credentials that the end user will provide, they will be connected either to the role of the student who will simply complete the quiz, or to the role of the school's headquarter, who will be able to check which students failed the psychological test and see their data.
 
 *A connection to the network of the academic institution of the International University of Greece is required (OpenVPN is recommended).
