@@ -1,4 +1,4 @@
-#Psychological test for secondary school students.
+# Psychological test for secondary school students.
 
 ## 🧰Test stack that was used to implement this Project: 
 1) Programming language: Java
