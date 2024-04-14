@@ -1,26 +1,27 @@
-Λογισμικά και εργαλεία που χρησιμοποιήθηκαν για την δημιουργiα του Project:
- 
-1) PostgreSQL  (pgAdmin 4)
-2) NetBeans IDE (Integrated Development Environment)
-3) JDBC API (Java Database Connectivity)
-4) Open VPN
-5) Lanch4J
-6) Resource Hacker
+Software and tools used to build this project:
 
-Ψυχολογικό test για τους μαθητές της δευτεροβάθμιας εκπαίδευσης.
+1) Programming language: Java
+2) PostgreSQL  (pgAdmin 4)
+3) NetBeans IDE (Integrated Development Environment)
+4) JDBC API (Java Database Connectivity)
+5) Open VPN
+6) Lanch4J
+7) Resource Hacker
 
-*Αναλόγως με τα credentials που θα δώσει ο χρήστης θα συνδεθεί είτε με το ρόλο του μαθητή που απλώς θα συμπληρώσει το quiz, είτε με τον ρόλο του διευθυντή, που θα μπορεί να ελέγξει ποίοι μαθητές απέτυχαν στο ψυχολογικό τεστ και να δει τα στοιχεία τους. 
+Psychological test for secondary school students.
 
-*Απαιτείται σύνδεση με το δίκτυο του ακαδημαϊκού ιδρύματος του Διεθνούς Πανεπιστημίου της Ελλάδος(προτείνεται το OpenVPN).
-*Τα παρακάτω μπορούν να χρησιμοποιηθούν για να δοκιμάσετε την εφαρμογή.
-*Οι μαθητές οι οποίοι συγκέντρωσαν σκορ μικρότερο του σαράντα(<40) απέτυχαν στο ψυχολογικό και o διευθυντής πρέπει να ενημερώσει τον γονέα ή κηδεμόνα τους.
+*Depending on the credentials the user will provide, he will be connected either as a student (1st user role) who will simply complete the quiz, or as the school's principal (2nd user role) who will be able to check which students failed the psychological test and see their data. Each user role will be landed a different home page and will be perform different actions.
 
-*Βασίστηκα στο βιβλίο ’Ψυχολογία της εφηβικής ηλικίας’ του ψυχολόγου ’Coleman C. John’, ο οποίος υποθετικά συνεργάζεται με το υπουργείο παιδείας, για να εισάγω τις ερωτήσεις στο ψυχολογικό test. 
+*A connection to the network of the academic institution of the International University of Greece is required (OpenVPN is recommended).
+*The following can be used to test the app.
+*Students who scored less than forty (<40) failed the psychological test and the principal must inform their parent or guardian.
 
-Credentials ενός τυχαίου απλού μαθητή:
+*I relied on the book 'Adolescent Psychology' by the psychologist 'Coleman C. John', who supposedly works with the Ministry of Education, to introduce the questions in the psychological test.
+
+Credentials of a random student:
 -StudentID: 100000
 -Password: 12345678
 
-Credentials του διευθυντή του σχολείου: 
+Credentials of the school's principal
 -StudentID: 999999
 -Password: 99996666
